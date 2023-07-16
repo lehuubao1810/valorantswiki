@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;500&display=swap');
+
+body {
+    background-color: #ece8e1;
+}
+
+.header .title {
+    margin-top: 200px;
+    margin-bottom: 75px;
+    font-size: 70px;
+    font-weight: 400;
+    color: #0f1923;
+    font-family: 'Anton', sans-serif;
+    padding-left: 80px;
+}
+.listWeapon {
+    padding: 0 80px;
+    /* display: flex;
+    flex-direction: column; */
+    margin-bottom: 40px;
+}
+.rowWeapons {
+    display: flex;
+    justify-content: space-between;
+}
+.weaponItem {
+    padding: 45px;
+    border: #768079 0.25px solid;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.weaponItem .name {
+    font-size: 80px;
+    font-weight: 400;
+    color: #0f1923;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 25px;
+    z-index: 1;
+    position: relative;
+}
+.weaponItem .img{
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.weaponItem .img img {
+    transition: all 0.3s ease-in-out;
+    width: 90%;
+    object-fit: cover;
+    /* drop-shadow img */
+    /* -webkit-filter: drop-shadow(1.5rem 2.2rem 0 rgba(15,25,35,.17)); */
+    filter: drop-shadow(1.5rem 2.2rem 0 rgba(15,25,35,.17));
+}
+.weaponItem .desc {
+    font-size: 14px;
+    font-weight: 500;
+    color: #768079;
+}
+
+.weaponItem .moreInfo {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    /* transform: skew(20deg); */
+    background-color: #ff4656;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    padding-top: 200px;
+    padding-left: 45px;
+    z-index: 0;
+}
+.moreInfo .typeWeapon {
+    margin-bottom: 40px;
+}
+.moreInfo .typeWeapon span {
+    font-weight: 500;
+}
+.moreInfo .infoText {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+}
+.moreInfo .infoText svg {
+    width: 60px;
+    /* height: 50px; */
+}
+.moreInfo .infoText {
+    padding-right: 100px;
+}
+.weaponItem:hover .moreInfo {
+    opacity: 0.9;
+    left: 0;
+}
+.weaponItem:hover .name {
+    color: #fff;
+}
+.weaponItem:hover .img img {
+    width: 85%;
+    /* margin: 5%; */
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+}
