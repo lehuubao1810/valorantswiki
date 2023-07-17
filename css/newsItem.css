@@ -4,8 +4,8 @@ body {
     background-color: #ece8e1;
 }
 .bgNews {
-    background: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt9c9af9703f88c2cf/649cac7a29ad981f73826474/Ignition_FAQ_Banner.jpg") no-repeat;
-    object-fit: cover;
+    background: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt9c9af9703f88c2cf/649cac7a29ad981f73826474/Ignition_FAQ_Banner.jpg") no-repeat ;
+    /* object-fit: cover; */
     margin-top: 80px;
     width: 100%;
     height: 500px;
@@ -100,6 +100,20 @@ body {
     margin-top: 10px;
     margin-bottom: -10px;
 }
+.mainContent h2 {
+    color: #0f1923;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.mainContent ul{
+    margin-left: 50px;
+}
+.mainContent img {
+    max-width: 100%;
+
+    object-fit: cover;
+}
+
 .subTitle__red {
     font-size: 28px;
     font-weight: bold;
@@ -129,15 +143,4 @@ body {
 }
 .social .icon a:hover {
     color: #0f1923
-}
-
-/* Footer */
-.footer {
-    background-color: #333;
-    text-align: center;
-    padding: 20px 0;
-    color: #fff;
-    font-weight: 500;
-    font-weight: bold;
-    line-height: 1.6;
 }

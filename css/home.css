@@ -143,14 +143,3 @@ body {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
 }
-
-/* Footer */
-.footer {
-    background-color: #333;
-    text-align: center;
-    padding: 20px 0;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.6;
-}

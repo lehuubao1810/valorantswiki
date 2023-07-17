@@ -4,7 +4,7 @@ body {
     background-color: #ece8e1;
 }
 .bgNews {
-    background: url("/images/news_banner.jpg") no-repeat;
+    background: url("../images/news_banner.jpg") no-repeat;
     object-fit: cover;
     margin-top: 80px;
     width: 100%;
@@ -93,15 +93,4 @@ body {
     color: #768079;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
-}
-
-/* Footer */
-.footer {
-    background-color: #333;
-    text-align: center;
-    padding: 20px 0;
-    color: #fff;
-    font-weight: 500;
-    font-weight: bold;
-    line-height: 1.6;
 }
